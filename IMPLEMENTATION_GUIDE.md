@@ -153,19 +153,19 @@ when users ask document-related questions.
 
 ## Troubleshooting
 
-AI shows "Offline"
+**AI shows "Offline"**
 → Flask backend is not running. Start it with `python app.py`.
 
-"HUGGINGFACE_API_KEY missing"
+**"HUGGINGFACE_API_KEY missing"**
 → Check config/.env — the key must start with `hf_`.
 
-"No documents to index"
+**"No documents to index"**
 → Add at least one project to the database first, then restart Flask.
 
-LLM times out (90s)
+**LLM times out (90s)**
 → DeepSeek-V4-Pro is a large model. For faster responses switch to
   `mistralai/Mistral-7B-Instruct-v0.3` in ai_engine.py (init_ai function).
 
-SQL agent generates wrong SQL
+**SQL agent generates wrong SQL**
 → The model ignored the schema. Add a real example row to DATABASE_SCHEMA_CONTEXT
   in prompts.py to help it.
