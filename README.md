@@ -31,7 +31,6 @@ ProjectTracker_FullApp/
 │   └── <project_name>/         ← Add your own folders here
 │       └── <name>_BRS.txt
 ├── streamlit_app1.py           ← Main UI (run this second)
-├── streamlit_app2.py           ← Alternative UI
 └── IMPLEMENTATION_GUIDE.md
 ```
 
