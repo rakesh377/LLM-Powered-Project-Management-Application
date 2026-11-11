@@ -1,7 +1,7 @@
 # Project Tracker Pro — AI Implementation Guide
 ## Files delivered
 
-'''
+```
 ProjectTracker_AI/
 ├── backend/
 │   ├── app.py                  ← Flask backend (replace existing)
@@ -15,9 +15,10 @@ ProjectTracker_AI/
 ├── documents/                  ← NEW: drop BRS / spec .txt files here per project
 │   └── website_redesign/
 │       └── BRS_website_redesign.txt   ← sample BRS file
-└── streamlit_app1.py           ← Frontend 
-'''
+└── streamlit_app1.py           ← Frontend (replace existing)
+```
 
+---
 
 ## Step-by-step setup
 
