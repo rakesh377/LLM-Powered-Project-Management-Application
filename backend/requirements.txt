@@ -1,0 +1,27 @@
+# Web framework
+flask==3.0.3
+flask-sqlalchemy==3.1.1
+flask-cors==4.0.1
+
+# LangChain — pinned to a compatible set (no langchain-core version conflict)
+langchain==0.3.7
+langchain-core==0.3.28
+langchain-huggingface==0.1.2
+langchain-community==0.3.7
+langchain-experimental==0.3.0
+langchain-text-splitters==0.3.2
+
+# Embeddings & Vector Store
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+
+# HuggingFace
+huggingface-hub==0.26.5
+tokenizers>=0.19.0
+transformers>=4.39.0
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
+sqlalchemy==2.0.35
+numpy>=1.26.0

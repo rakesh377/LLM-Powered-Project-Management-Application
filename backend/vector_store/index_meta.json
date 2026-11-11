@@ -1,0 +1,7 @@
+{
+  "last_indexed": "2026-11-11T21:13:16.573348",
+  "document_count": 545,
+  "db_docs": 200,
+  "file_docs": 345,
+  "model": "sentence-transformers/all-MiniLM-L6-v2"
+}
