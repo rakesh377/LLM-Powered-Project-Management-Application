@@ -8,6 +8,7 @@ Built with Flask · Streamlit · LangChain · HuggingFace · FAISS · SQLite.
 ## 🗂️ Project Structure
 
 
+```
 ProjectTracker_FullApp/
 ├── backend/
 │   ├── app.py                  ← Flask API server (run this first)
@@ -29,8 +30,10 @@ ProjectTracker_FullApp/
 │   │   └── svt_BRS.txt
 │   └── <project_name>/         ← Add your own folders here
 │       └── <name>_BRS.txt
-├── streamlit_app1.py           ← Main UI (run this second)         
+├── streamlit_app1.py           ← Main UI (run this second)
+├── streamlit_app2.py           ← Alternative UI
 └── IMPLEMENTATION_GUIDE.md
+```
 
 
 ---
